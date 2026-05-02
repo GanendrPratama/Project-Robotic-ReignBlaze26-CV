@@ -2,7 +2,7 @@
 
 ## 1. Teleoperation and Telemetry
 
-**Tim Terlibat:** Rafzhar, Zein  
+**Tim Terlibat:** Rafzhar, Zein, Milla  
 **Fokus Utama:** Mengatur sistem kendali robot dari laptop operator, komunikasi wireless, tampilan data robot, serta pengujian performa jaringan.
 
 ### 1.1 Mapping Input DualShock 3 ke Robot
