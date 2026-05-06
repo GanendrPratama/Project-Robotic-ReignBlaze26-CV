@@ -1,0 +1,13 @@
+<launch>
+    <!-- Load parameters -->
+    <rosparam file="$(find vision_obstacle_pkg)/config/camera_params.yaml" command="load" />
+
+    <!-- Run RealSense / Camera Node -->
+    <node pkg="vision_obstacle_pkg" type="camera_rs_node.py" name="camera_rs_node" output="screen" />
+
+    <!-- Run Object Detection Node -->
+    <node pkg="vision_obstacle_pkg" type="object_detect_node.py" name="object_detect_node" output="screen" />
+
+    <!-- Run Sensor Fusion Node -->
+    <node pkg="vision_obstacle_pkg" type="sensor_fusion_node.py" name="sensor_fusion_node" output="screen" />
+</launch>
